@@ -79,6 +79,10 @@
     font-size: 2.2rem;
   }
 
+  .food-description {
+    font-size: 2rem;
+  }
+
   .food-images {
     column-gap: 3rem;
   }
@@ -131,6 +135,17 @@
 
   #menu {
     padding-bottom: 4rem;
+  }
+
+  .menu-items {
+    display: block;
+    padding: 0 5rem 0 5rem;
+  }
+
+  .favorites,
+  .breakfast,
+  .drinks-and-extras {
+    margin-bottom: 5rem;
   }
 
   #restaurant-info {
@@ -201,14 +216,7 @@
   }
 
   .menu-items {
-    display: block;
-    padding: 0 5rem 0 5rem;
-  }
-
-  .favorites,
-  .breakfast,
-  .drinks-and-extras {
-    margin-bottom: 5rem;
+    padding: 0 3rem 0 3rem;
   }
 
   .google-map {
@@ -232,6 +240,10 @@
   .google-map {
     max-width: 30rem;
     max-height: 30rem;
+  }
+
+  .menu-items {
+    padding: 0 0.5rem 0 0.5rem;
   }
 
   footer {
