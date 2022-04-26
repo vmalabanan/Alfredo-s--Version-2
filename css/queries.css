@@ -93,7 +93,6 @@
 /* BELOW 600 px */
 /************************************/
 @media (max-width: 37.5rem) {
-  .main-header,
   #story,
   #menu,
   #restaurant-info,
@@ -102,9 +101,13 @@
     padding: 9rem 5rem;
   }
 
+  .main-header {
+    padding: 4rem 5rem 1rem 5rem;
+  }
+
   .intro {
-    background-image: none;
-    padding: 15rem 0 25rem 0;
+    background-size: 270%;
+    padding: 18rem 0 25rem 0;
   }
 
   .order-button {
@@ -131,6 +134,10 @@
 @media (max-width: 26.25rem) {
   .asterisk {
     font-size: 4rem;
+  }
+
+  .intro {
+    background-image: none;
   }
 
   .unofficial {
