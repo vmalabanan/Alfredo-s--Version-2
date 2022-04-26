@@ -55,7 +55,7 @@
   #menu,
   #restaurant-info,
   footer {
-    padding: 7rem 10rem;
+    padding: 10rem;
   }
 
   .food-images-container {
@@ -81,7 +81,11 @@
   .favorites,
   .breakfast,
   .drinks-and-extras {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
+  }
+
+  .extras {
+    margin-top: 10rem;
   }
 }
 
@@ -145,9 +149,8 @@
     padding: 3rem 2.5rem;
   }
 
-  .boy-eating-burrito {
-    margin-bottom: 8rem;
-    /* padding: 0; */
+  #story {
+    display: none;
   }
 }
 
