@@ -97,6 +97,11 @@
     padding: 3rem 5rem;
   }
 
+  .intro {
+    background-image: none;
+    padding: 15rem 0 20rem 0;
+  }
+
   .food-images-container {
     padding: 3rem 5rem 17rem 5rem;
   }
@@ -151,5 +156,10 @@
 @media (max-width: 18.75rem) {
   html {
     font-size: 40%;
+  }
+
+  .intro {
+    background-image: none;
+    padding: 25rem 0;
   }
 }
