@@ -13,7 +13,10 @@
     <!-- Social Media Icons -->
     <script src="https://kit.fontawesome.com/e7ed301a8f.js" crossorigin="anonymous"></script>
 
-    <link href="styles.css" rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
     
     <title>Alfredo's</title>
   </head>
@@ -43,8 +46,8 @@
        </ul>
 
     </header>
-   
-    <section class="intro">
+
+       <section class="intro">
       <h2>Mexican food.</h2>
       <h2 class="intro-last-line">San Diego Style.</h2>
 
@@ -55,10 +58,12 @@
       <p class="unofficial-blurb">an unofficial website by an obsessed fan</p>
       </div>
     </section>
+  </div>
 
     <section id="story">
       <div class="story-image-and-caption">
         <img class="boy-eating-burrito" src="https://lh3.googleusercontent.com/JzlQgkHCF76qFhHeE5daPqPxoqzc6iwOaUKEjuTS7YVdtC0cTm1lRJef-CnqyMduh-y90hZG-69_8KGEMMKBLxwmjeS4aJZAZL66lSn_T2f7mAeyo_YPEt4TywwWfAU0FL-5NxyZZg=w2400" alt="Boy eating burrito" />
+        
         <div class="caption-and-arrow">
           <img class="arrow" src="https://lh3.googleusercontent.com/F0umjJKrlL0OkIcE0tfsGtexfD1m58T5SyRpuBOkO1U2FhDRUYJn1jatVQtd1c3fY1bA-PVza3BL4p0BpBjLSkEGNBQmawOFdWHtm6gpX0Kr-CI04DcQCzfcElN-JxoLVpT9SqInlg=w2400" height="60px"/>
           
@@ -69,15 +74,15 @@
       <div class="story-text">
         <h3 class="once-upon-a-time">Once upon a time...</h3>
         <p>There was a boy named Alfredo who craved a burrito.</p>
-        <p>Not just any burrito, but the kind stuffed with <span class="carne-asada">carne asada</span> and <span class="fries">fries</span> like they had in his hometown, San Diego.</p>
+        <p>Not just any burrito, but the kind stuffed with <span class="bold-story-words carne-asada">carne asada</span> and <span class="bold-story-words fries">fries</span> like they had in his hometown, San Diego.</p>
         <p>He searched far and wide but couldn't find one, so he decided to make his own.</p>
         <p>He experimented and perfected it until he got it right: a handmade tortilla stuffed with carne asada, sour cream, cheese, and fresh cut fries, just like home.</p>
         <p>When he grew up, he wanted to share the food that had brought him so much joy.</p>
-        <p class="and-so">And so, Alfredo's was born...</p>
+        <span class="bold-story-words and-so">And so, Alfredo's was born...</span>
       </div>
 
     </section>
-  </div>
+
 
     <section id="menu">
       <h3>Menu</h3>
@@ -223,15 +228,16 @@
 
         <div class="food-partner-links">
           <ul class="food-partners">
-            <li><a href="https://www.ubereats.com/store/alfredos-mexican-food/n3p0iya0R4CryB7bcRYq-g"><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b969d35d373b512664b78f912f19abc.svg" alt="Uber Eats logo" width="160px" /></a></li>
+            <li><a href="https://www.ubereats.com/store/alfredos-mexican-food/n3p0iya0R4CryB7bcRYq-g"><img class="uber-eats" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b969d35d373b512664b78f912f19abc.svg" alt="Uber Eats logo" /></a></li>
     
-            <li><a href="https://postmates.com/store/alfredos-mexican-food/n3p0iya0R4CryB7bcRYq-g"><img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b91d199e3b93ef6b50f6e61e774d9f4.svg" alt="Postmates logo" width="160px" /></a></li>
+            <li><a href="https://postmates.com/store/alfredos-mexican-food/n3p0iya0R4CryB7bcRYq-g"><img class="postmates" src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/8b91d199e3b93ef6b50f6e61e774d9f4.svg" alt="Postmates logo" /></a></li>
           </ul>
         </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.4221052427692!2d-118.31918158455606!3d34.18668998056969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29543f561dd71%3A0x9e9b86de278d344!2sAlfredo&#39;s%20Mexican%20Food!5e0!3m2!1sen!2sus!4v1650268758987!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3300.4221052427692!2d-118.31918158455606!3d34.18668998056969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29543f561dd71%3A0x9e9b86de278d344!2sAlfredo&#39;s%20Mexican%20Food!5e0!3m2!1sen!2sus!4v1650268758987!5m2!1sen!2sus" style="border:0;"width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
+    <div class="food-images-container">
     <section class="food-images">
 
       <div class="california-burrito">
@@ -292,7 +298,7 @@
         <p>nachos with carne asada, cheese, guacamole, and sour cream</p>
       </div>
     </section>
-
+  </div>
 
     <footer>
        <div class="contact-info">

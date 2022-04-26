@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #ffdd55;
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-family: "Roboto Mono", monospace;
+}

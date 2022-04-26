@@ -1,43 +1,29 @@
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  background-color: #ffdd55;
-  font-size: 19px;
-  font-weight: 500;
-  color: #1a1a1a;
-  font-family: "Roboto Mono", monospace;
-}
-
+/************************************/
+/* HEADER */
+/************************************/
 .main-header {
-  padding-top: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 15px;
+  padding: 3rem 6rem 1.5rem 6rem;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1rem;
+}
+
+.logo {
+  max-width: 28.5rem;
 }
 
 .asterisk {
-  font-size: 53px;
+  font-size: 5.3rem;
   color: #ff3e56;
-  /* line-height: 0.3; */
   font-family: "Pacifico", cursive;
 }
 
 nav {
-  font-size: 29px;
+  font-size: 2.9rem;
   font-family: "Gloria Hallelujah", cursive;
   margin-left: auto;
   display: flex;
-  gap: 60px;
+  gap: 6rem;
   justify-content: space-between;
 }
 
@@ -59,9 +45,9 @@ nav {
 
 .social-links-header {
   list-style: none;
-  margin-left: 30px;
+  margin-left: 3rem;
   display: flex;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .social-button-header {
@@ -75,7 +61,7 @@ nav {
 }
 
 h2 {
-  font-size: 43px;
+  font-size: 4.3rem;
   font-weight: 500;
   color: #ff3e56;
   line-height: 1.17;
@@ -84,16 +70,16 @@ h2 {
 
 .intro {
   background-image: url("https://lh3.googleusercontent.com/pTG8Is7hCs5rKojb6JdCGZILiAi3TRMGKXE3zjlswNNZJmCmSEQINuKjxLwtr8umnj4bqk4aFIL9r68f628Jr_PytXTd32MEkjhH2jLAI5hWsvGJH_GMCxW5PFDPDmAXLiJ364-S=w2400");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
   text-align: center;
-  padding-top: 300px;
-  padding-bottom: 340px;
+  padding-top: 30rem;
+  padding-bottom: 34rem;
 }
 
 .intro-last-line {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 button {
@@ -105,15 +91,15 @@ button {
 .order-button {
   background-color: #ff3e56;
   border: none;
-  padding: 20px 24px;
-  border-radius: 30px;
-  font-size: 17.3px;
+  padding: 2rem 2.4rem;
+  border-radius: 3rem;
+  font-size: 1.73rem;
   font-weight: 600;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
   transition-duration: 0.4s;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .order-button:hover {
@@ -123,71 +109,67 @@ button {
 .unofficial {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 1rem;
 }
 
 .unofficial .asterisk {
   line-height: 0;
   letter-spacing: 0;
-  padding-top: 25px;
+  padding-top: 2.5rem;
 }
 
 .unofficial-blurb {
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   font-family: "Pacifico", cursive;
 }
 
+/************************************/
+/* STORY */
+/************************************/
 #story {
   background-color: #ffffff;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  padding-left: 45px;
-  padding-right: 100px;
+  padding: 15rem 15rem 4.5rem 10rem;
   display: flex;
-  /* align-items: center; */
-
-  /* gap: 40px; */
+  gap: 5rem;
 }
 
-/* .story-image-and-caption {
-  width: 50%;
-} */
-
 .boy-eating-burrito {
-  padding-left: 55px;
-  width: 80%;
+  padding-left: 5.5rem;
+  padding-bottom: 0.75rem;
+  max-width: 82rem;
+  /* width: 80%; */
+  /* max-width: 80%; */
 }
 
 .caption-and-arrow {
-  margin-top: -80px;
-  /* margin-left: 60px; */
+  max-height: 7.5rem;
+  margin-top: -8rem;
   display: flex;
   align-items: flex-end;
 }
 
 .caption-and-arrow p {
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
   font-family: "Pacifico", cursive;
-  /* flex-basis: 400px; */
 }
 
 .arrow {
-  padding-bottom: 15px;
+  max-width: 6rem;
+  /* padding-bottom: 0.5rem; */
+  margin-bottom: 1rem;
 }
+
 .story-text {
-  margin-left: -90px;
-  flex-basis: 600px;
+  flex-basis: 60rem;
   text-transform: lowercase;
 }
 
 .story-text p {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
-.carne-asada,
-.fries,
-.and-so {
-  font-size: 26px;
+.bold-story-words {
+  font-size: 2.6rem;
   font-weight: 500;
   line-height: 1.1;
   font-family: "Gloria Hallelujah", cursive;
@@ -197,85 +179,88 @@ button {
   text-align: end;
 }
 
+/************************************/
+/* MENU */
+/************************************/
 #menu {
   background-color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding: 5rem 3rem 10rem 3rem;
 }
 
 h3 {
-  font-size: 43px;
+  font-size: 4.3rem;
   font-weight: 500;
   line-height: 1.1;
   font-family: "Gloria Hallelujah", cursive;
   text-align: center;
-  /* padding-top: 40px; */
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .menu-items {
   display: flex;
   justify-content: center;
-  gap: 75px;
-  /* padding: 0 200px; */
+  gap: 7.5rem;
 }
 
 .favorites,
 .breakfast,
 .drinks-and-extras {
-  flex-basis: 350px;
+  flex-basis: 35rem;
 }
 
 .extras {
-  margin-top: 45px;
+  margin-top: 4.5rem;
 }
 
 h4 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 500;
   line-height: 1.6;
   font-family: "Gloria Hallelujah", cursive;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 
 .breakfast-all-day {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.6;
   font-family: "Gloria Hallelujah", cursive;
-  margin-top: -20px;
-  margin-bottom: 10px;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
 }
 
 .food-item {
-  font-size: 22px;
+  font-size: 2.2rem;
   line-height: 1.6;
   font-family: "Gloria Hallelujah", cursive;
 }
 
 .food-description {
-  font-size: 14px;
+  font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
+/************************************/
+/* RESTAURANT INFO */
+/************************************/
 #restaurant-info {
   background-color: #ffffff;
-  padding: 50px 200px;
+  padding: 5rem 20rem;
   text-align: center;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 80px;
+  gap: 8rem;
 }
 
 .location-info p {
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .address-body {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .body-link:link,
@@ -285,7 +270,7 @@ h4 {
 }
 
 .hours-body {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 .hours-title-body {
   font-weight: bold;
@@ -296,34 +281,45 @@ h4 {
 }
 
 .food-partners li {
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.uber-eats,
+.postmates {
+  max-width: 16rem;
+}
+
+.google-map {
+  max-width: 60rem;
+  max-height: 45rem;
+}
+/************************************/
+/* FOOD GALLERY */
+/************************************/
+.food-images-container {
+  background-color: #fbbf3a;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .food-images {
-  background-color: #fbbf3a;
   text-align: center;
-  padding: 30px 350px;
-  /* padding-bottom: 90px; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(7, 1fr);
-  column-gap: 40px;
-  row-gap: 60px;
+  column-gap: 4rem;
+  row-gap: 6rem;
 }
 
-/* .row-one,
-.row-two,
-.row-three {
-  flex-basis: 400px;
-} */
-
 .food-images img {
-  width: 80%;
+  /* width: 80%; */
+  max-width: 47rem;
 }
 
 .food-images p {
-  font-size: 16px;
-  margin-bottom: 50px;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
 }
 
 .california-burrito {
@@ -351,20 +347,23 @@ h4 {
 }
 
 h5 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 500;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.08rem;
   line-height: 1.6;
   font-family: "Pacifico", cursive;
 }
 
+/************************************/
+/* FOOTER */
+/************************************/
 footer {
   background-color: #ff3e56;
-  font-size: 13px;
+  font-size: 1.3rem;
   color: #ffffff;
   font-weight: 300;
   text-align: center;
-  padding: 30px 300px;
+  padding: 3rem 30rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -378,25 +377,25 @@ footer {
 
 .takeout-blurb {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .contact-info {
-  flex-basis: 220px;
+  flex-basis: 22rem;
 }
 
 .phone {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .social-links {
   list-style: none;
-  flex-basis: 220px;
+  flex-basis: 22rem;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .social-button {
@@ -410,13 +409,13 @@ footer {
 }
 
 .hours {
-  flex-basis: 220px;
+  flex-basis: 22rem;
   align-self: flex-start;
 }
 
 .hours-title {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
