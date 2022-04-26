@@ -111,9 +111,21 @@
 }
 
 /************************************/
-/* BELOW 400 px */
+/* BELOW 420 px */
 /************************************/
-@media (max-width: 25rem) {
+@media (max-width: 26.25rem) {
+  .asterisk {
+    font-size: 4rem;
+  }
+
+  .unofficial {
+    gap: 0.25rem;
+  }
+
+  .unofficial-blurb {
+    font-size: 1.5rem;
+  }
+
   #story,
   #menu,
   #restaurant-info,
