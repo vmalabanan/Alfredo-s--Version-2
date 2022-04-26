@@ -191,6 +191,15 @@
     padding: 3rem 5rem 17rem 5rem;
   }
 
+  footer {
+    display: block;
+  }
+
+  .contact-info,
+  .social-links {
+    margin-bottom: 3rem;
+  }
+
   /* .story-text {
     padding: 0 5rem 5rem 10rem;
   } */
@@ -251,15 +260,6 @@
 
   .food-images-container {
     padding: 3rem 2.5rem 14rem 2.5rem;
-  }
-
-  footer {
-    display: block;
-  }
-
-  .contact-info,
-  .social-links {
-    margin-bottom: 3rem;
   }
 }
 
