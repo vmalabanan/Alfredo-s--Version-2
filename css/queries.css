@@ -55,7 +55,7 @@
   #menu,
   #restaurant-info,
   footer {
-    padding: 6rem 10rem;
+    padding: 7rem 10rem;
   }
 
   .food-images-container {
@@ -93,8 +93,9 @@
   #story,
   #menu,
   #restaurant-info,
+  .food-images-container,
   footer {
-    padding: 3rem 5rem;
+    padding: 7rem 5rem;
   }
 
   .intro {
@@ -102,8 +103,12 @@
     padding: 15rem 0 25rem 0;
   }
 
-  .food-images-container {
-    padding: 3rem 5rem 17rem 5rem;
+  .order-button {
+    margin-bottom: 4rem;
+  }
+
+  .food-images {
+    display: block;
   }
 
   footer {
@@ -143,10 +148,6 @@
   .boy-eating-burrito {
     margin-bottom: 8rem;
     /* padding: 0; */
-  }
-
-  .food-images-container {
-    padding: 3rem 2.5rem 14rem 2.5rem;
   }
 }
 
