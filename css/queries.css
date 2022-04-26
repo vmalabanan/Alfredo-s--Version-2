@@ -89,6 +89,7 @@
 /* BELOW 600 px */
 /************************************/
 @media (max-width: 37.5rem) {
+  .main-header,
   #story,
   #menu,
   #restaurant-info,
@@ -126,6 +127,7 @@
     font-size: 1.5rem;
   }
 
+  .main-header,
   #story,
   #menu,
   #restaurant-info,
