@@ -208,7 +208,7 @@
   }
 
   .boy-eating-burrito {
-    max-width: 50rem;
+    max-width: 30rem;
   }
 
   .story-text {
@@ -229,9 +229,9 @@
 /* BELOW 400 px */
 /************************************/
 @media (max-width: 25rem) {
-  .boy-eating-burrito {
+  /* .boy-eating-burrito {
     max-width: 30rem;
-  }
+  } */
 
   .food-images img {
     max-width: 20rem;
