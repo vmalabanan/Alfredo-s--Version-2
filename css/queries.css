@@ -7,9 +7,9 @@
     gap: 3rem;
   }
 
-  .boy-eating-burrito {
+  /* .boy-eating-burrito {
     max-width: 75rem;
-  }
+  } */
 }
 
 /************************************/
@@ -20,10 +20,10 @@
     padding: 7.5rem 7rem 2rem 3rem;
     gap: 3rem;
   }
-
+  /* 
   .boy-eating-burrito {
     max-width: 70rem;
-  }
+  } */
 }
 
 /************************************/
@@ -39,9 +39,9 @@
     gap: 1rem;
   }
 
-  .boy-eating-burrito {
+  /* .boy-eating-burrito {
     max-width: 65rem;
-  }
+  } */
 
   #restaurant-info {
     padding: 10rem 7rem;
@@ -57,64 +57,80 @@
 /* BELOW 900 px */
 /************************************/
 @media (max-width: 56.25rem) {
-  html {
+  /* html {
     font-size: 50%;
-  }
+  } */
+  /* 
+  * {
+    padding: 0;
+  } */
 
-  .main-header {
+  /* .container {
+    padding: 6rem;
+  } */
+
+  /* .main-header {
     padding: 2rem 2rem 1.5rem 2rem;
+  } */
+
+  #story,
+  #restaurant-info,
+  .menu-items {
+    display: block;
   }
 
-  .boy-eating-burrito {
-    max-width: 55rem;
-    margin-bottom: 1rem;
+  #story,
+  #menu,
+  #restaurant-info,
+  footer {
+    padding: 6rem 10rem;
   }
 
-  .story-text p,
+  .food-images-container {
+    padding: 3rem 10rem 17rem 10rem;
+  }
+
+  /* #story {
+    padding: 3rem;
+  } */
+
+  .story-image-and-caption {
+    margin-bottom: 7rem;
+  }
+
+  /* .story-text {
+    padding: 0 6rem 2rem 6rem;
+  } */
+
+  /* .story-text p,
   .caption-and-arrow p {
     font-size: 1.5rem;
+  } */
+
+  .boy-eating-burrito {
+    margin-bottom: 6rem;
+    /* padding: 0; */
   }
 
-  .bold-story-words {
+  /* .bold-story-words {
     font-size: 2.2rem;
   }
-
+*/
   .food-description {
     font-size: 2rem;
   }
 
-  .food-images {
+  /* .food-images {
     column-gap: 3rem;
-  }
+  } */
 
-  .food-images img {
+  /* .food-images img {
     max-width: 40rem;
-  }
+  } */
 
-  footer {
+  /* footer {
     padding: 3rem 10rem;
-  }
-}
-
-/************************************/
-/* BELOW 752 px */
-/************************************/
-@media (max-width: 47rem) {
-  #story,
-  #restaurant-info {
-    display: block;
-  }
-
-  .story-image-and-caption {
-    padding-left: 5rem;
-    margin-bottom: 5rem;
-  }
-
-  .boy-eating-burrito {
-    max-width: 60rem;
-    margin-bottom: 2rem;
-    padding: 0;
-  }
+  } */
 
   .caption-and-arrow {
     justify-content: flex-start;
@@ -124,23 +140,18 @@
     text-align: right;
   } */
 
-  .story-text {
-    padding: 0 5rem 5rem 30rem;
-  }
-
-  .story-text p,
+  /* .story-text p,
   .caption-and-arrow p {
     font-size: 2rem;
-  }
+  } */
 
-  #menu {
+  /* #menu {
     padding-bottom: 4rem;
   }
 
   .menu-items {
-    display: block;
     padding: 0 5rem 0 5rem;
-  }
+  } */
 
   .favorites,
   .breakfast,
@@ -148,81 +159,62 @@
     margin-bottom: 5rem;
   }
 
-  #restaurant-info {
+  /* #restaurant-info {
     padding-top: 4rem;
-  }
+  } */
 
-  .food-images {
+  /* .food-images {
     column-gap: 2rem;
-  }
+  } */
 
-  .food-images img {
+  /* .food-images img {
     max-width: 30rem;
-  }
+  } */
 }
 
 /************************************/
 /* BELOW 600 px */
 /************************************/
 @media (max-width: 37.5rem) {
-  html {
+  /* html {
     font-size: 45%;
+  } */
+
+  #story,
+  #menu,
+  #restaurant-info,
+  footer {
+    padding: 3rem 5rem;
   }
 
-  .boy-eating-burrito {
-    margin-bottom: 4rem;
+  .food-images-container {
+    padding: 3rem 5rem 17rem 5rem;
   }
 
-  .story-text {
+  /* .story-text {
     padding: 0 5rem 5rem 10rem;
-  }
+  } */
 
-  .google-map {
+  /* .story-text {
+    padding: 0 2rem 5rem 3rem;
+  } */
+
+  /* .google-map {
     max-width: 50rem;
     max-height: 40rem;
-  }
+  } */
 
-  .food-images {
+  /* .food-images {
     column-gap: 1rem;
-  }
+  } */
 
-  .food-images img {
+  /* .food-images img {
     max-width: 25rem;
-  }
+  } */
 
-  footer {
+  /* footer {
     padding: 3rem 3rem;
-  }
-}
-
-/************************************/
-/* BELOW 500 px */
-/************************************/
-@media (max-width: 31.25rem) {
-  #story {
-    padding-right: 0;
-  }
-
-  .story-image-and-caption {
-    padding-left: 1rem;
-  }
-
-  .boy-eating-burrito {
-    max-width: 30rem;
-  }
-
-  .story-text {
-    padding: 0 2rem 5rem 3rem;
-  }
-
-  .menu-items {
-    padding: 0 3rem 0 3rem;
-  }
-
-  .google-map {
-    max-width: 40rem;
-    max-height: 40rem;
-  }
+  } */
 }
 
 /************************************/
@@ -233,17 +225,32 @@
     max-width: 30rem;
   } */
 
-  .food-images img {
+  /* .food-images img {
     max-width: 20rem;
-  }
+  } */
 
-  .google-map {
+  /* .google-map {
     max-width: 30rem;
     max-height: 30rem;
+  } */
+
+  /* .menu-items {
+    padding: 0 0.5rem 0 0.5rem;
+  } */
+  #story,
+  #menu,
+  #restaurant-info,
+  footer {
+    padding: 3rem 2.5rem;
   }
 
-  .menu-items {
-    padding: 0 0.5rem 0 0.5rem;
+  .boy-eating-burrito {
+    margin-bottom: 8rem;
+    /* padding: 0; */
+  }
+
+  .food-images-container {
+    padding: 3rem 2.5rem 14rem 2.5rem;
   }
 
   footer {
@@ -264,7 +271,7 @@
     font-size: 40%;
   }
 
-  footer {
+  /* footer {
     padding: 1.5rem 1.5rem;
-  }
+  } */
 }

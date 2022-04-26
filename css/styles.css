@@ -128,17 +128,17 @@ button {
 /************************************/
 #story {
   background-color: #ffffff;
-  padding: 15rem 15rem 4.5rem 10rem;
+  padding: 15rem 15rem 10rem 3rem;
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .boy-eating-burrito {
   padding-left: 5.5rem;
   padding-bottom: 0.75rem;
-  max-width: 82rem;
+  /* max-width: 82rem; */
   /* width: 80%; */
-  /* max-width: 80%; */
+  max-width: 90%;
 }
 
 .caption-and-arrow {
@@ -247,7 +247,7 @@ h4 {
 /************************************/
 #restaurant-info {
   background-color: #ffffff;
-  padding: 5rem 20rem;
+  padding: 5rem 20rem 10rem 20rem;
   text-align: center;
   display: flex;
   justify-content: flex-end;
@@ -290,8 +290,7 @@ h4 {
 }
 
 .google-map {
-  max-width: 60rem;
-  max-height: 45rem;
+  max-width: 100%;
 }
 /************************************/
 /* FOOD GALLERY */
@@ -300,7 +299,8 @@ h4 {
   background-color: #fbbf3a;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  padding: 7rem;
+  padding-bottom: 17rem;
 }
 
 .food-images {
@@ -308,13 +308,14 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(7, 1fr);
-  column-gap: 4rem;
-  row-gap: 6rem;
+  /* column-gap: 4rem; */
+  column-gap: 10%;
+  row-gap: 15%;
 }
 
 .food-images img {
-  /* width: 80%; */
-  max-width: 47rem;
+  max-width: 100%;
+  /* max-width: 47rem; */
 }
 
 .food-images p {
