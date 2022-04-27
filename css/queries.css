@@ -61,7 +61,7 @@
   }
 
   .food-images-container {
-    padding: 3rem 10rem 17rem 10rem;
+    padding: 3rem 10rem 7rem 10rem;
   }
 
   .boy-eating-burrito {
@@ -142,11 +142,11 @@
   #restaurant-info,
   .food-images-container,
   footer {
-    padding: 9rem 5rem;
+    padding: 9rem 5rem 5rem 5rem;
   }
 
   .main-header {
-    padding: 4rem 5rem 0 5rem;
+    padding: 3rem 3rem 0 3rem;
   }
 
   .order-button {
@@ -155,6 +155,16 @@
 
   .caption-and-arrow p {
     font-size: 2.2rem;
+  }
+
+  .favorites,
+  .breakfast,
+  .drinks-and-extras {
+    margin-bottom: 6rem;
+  }
+
+  .extras {
+    margin-top: 6rem;
   }
 
   .food-images p {
@@ -166,14 +176,18 @@
 /* BELOW 500 px */
 /************************************/
 @media (max-width: 31.25rem) {
+  .main-header {
+    padding: 2rem 2rem 0 2rem;
+  }
+
   .above-intro,
   .below-intro {
     display: block;
     background-image: url("https://lh3.googleusercontent.com/bZH2x3_w9ui1eB5qUivhvmYfKspX1FizOPwndHRgpO2gW61Piq7ufVXZ6q7zgCS6y0qJQAPyZl3wuEU96AdjcwWJfUO1x79pfIniWXFPVETnr84yk3TMoY94HIAJ--JQRC8jRWChOA=w2400");
-    background-size: auto 10rem;
+    background-size: auto 15rem;
     background-repeat: no-repeat;
     background-position: center;
-    height: 10rem;
+    height: 15rem;
   }
 
   .above-intro,
@@ -204,6 +218,12 @@
     font-size: 4rem;
   }
 
+  .above-intro,
+  .below-intro {
+    background-size: auto 12rem;
+    height: 12rem;
+  }
+
   .unofficial {
     gap: 0.25rem;
   }
@@ -213,16 +233,14 @@
   }
 
   #story,
-  #menu,
   #restaurant-info,
   footer {
     padding: 3rem 4rem;
   }
 
-  .main-header {
-    padding: 3rem 4rem 0 4rem;
+  #menu {
+    padding: 7rem 4rem 3rem 4rem;
   }
-
   .caption-and-arrow {
     margin-top: 2rem;
   }
@@ -234,5 +252,11 @@
 @media (max-width: 20.625rem) {
   html {
     font-size: 40%;
+  }
+
+  .above-intro,
+  .below-intro {
+    background-size: auto 13rem;
+    height: 13rem;
   }
 }
