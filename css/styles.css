@@ -60,7 +60,7 @@
 }
 
 .social-button-header {
-  background-color: #ffdd55;
+  background: none;
   color: #ff3e56;
   transition-duration: 0.4s;
 }
@@ -71,6 +71,18 @@
 
 .fa-brands {
   font-size: 3rem;
+}
+
+/* MOBILE NAV */
+.button-mobile-nav {
+  background: none;
+  color: #ff3e56;
+  font-size: 4rem;
+  display: none;
+}
+
+.mobile-nav-close {
+  display: none;
 }
 
 h2 {
