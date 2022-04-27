@@ -73,7 +73,7 @@
     justify-content: center;
 
     /* Hide navigation */
-    display: none;
+    opacity: 0;
   }
 
   .social-links-header {

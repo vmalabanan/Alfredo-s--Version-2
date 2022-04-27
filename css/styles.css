@@ -337,8 +337,6 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(7, 1fr);
-  /* column-gap: 4rem; */
-  column-gap: 10%;
   row-gap: 15%;
 }
 
