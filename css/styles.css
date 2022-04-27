@@ -21,10 +21,15 @@
   font-family: "Pacifico", cursive;
 }
 
-nav {
+.home-nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  list-style: none;
   font-size: 2.9rem;
   font-family: "Gloria Hallelujah", cursive;
-  margin-left: auto;
+
   display: flex;
   gap: 6rem;
   justify-content: space-between;
@@ -70,10 +75,13 @@ h2 {
   line-height: 1.17;
   font-family: "Gloria Hallelujah", cursive;
 }
+.above-intro,
+.below-intro {
+  display: none;
+}
 
 .intro {
   background-image: url("https://lh3.googleusercontent.com/pTG8Is7hCs5rKojb6JdCGZILiAi3TRMGKXE3zjlswNNZJmCmSEQINuKjxLwtr8umnj4bqk4aFIL9r68f628Jr_PytXTd32MEkjhH2jLAI5hWsvGJH_GMCxW5PFDPDmAXLiJ364-S=w2400");
-  /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -243,6 +251,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
+  gap: 6rem;
 }
 
 /************************************/
@@ -322,7 +331,8 @@ h4 {
 }
 
 .food-images p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  padding: 0 18rem;
   margin-bottom: 5rem;
 }
 
@@ -400,6 +410,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  padding: 4rem 0;
 }
 
 .social-button {

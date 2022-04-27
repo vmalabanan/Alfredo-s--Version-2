@@ -47,7 +47,9 @@
 @media (max-width: 62.5rem) {
   #story,
   #restaurant-info,
-  .menu-items {
+  .menu-items,
+  .food-images,
+  footer {
     display: block;
   }
 
@@ -55,19 +57,32 @@
   #menu,
   #restaurant-info,
   footer {
-    padding: 10rem;
+    padding: 10rem 20rem;
   }
 
   .food-images-container {
     padding: 3rem 10rem 17rem 10rem;
   }
 
+  .boy-eating-burrito {
+    padding-bottom: 0;
+  }
+
+  .caption-and-arrow {
+    margin-top: -3rem;
+  }
+
   .story-image-and-caption {
     margin-bottom: 7rem;
   }
 
-  .boy-eating-burrito {
-    margin-bottom: 6rem;
+  .story-text {
+    text-align: justify;
+    padding: 2rem 0;
+  }
+
+  .food-item {
+    font-size: 2.4rem;
   }
 
   .food-description {
@@ -87,6 +102,35 @@
   .extras {
     margin-top: 10rem;
   }
+
+  .food-images p {
+    font-size: 2rem;
+  }
+
+  .takeout-blurb {
+    font-size: 1.8rem;
+  }
+
+  footer,
+  .hours-title {
+    font-size: 1.7rem;
+  }
+}
+
+/************************************/
+/* BELOW 800 px */
+/************************************/
+@media (max-width: 50rem) {
+  #story,
+  #menu,
+  #restaurant-info,
+  footer {
+    padding: 10rem 10rem;
+  }
+
+  .food-images p {
+    padding: 0 8rem;
+  }
 }
 
 /************************************/
@@ -102,29 +146,53 @@
   }
 
   .main-header {
-    padding: 4rem 5rem 1rem 5rem;
-  }
-
-  .intro {
-    background-size: 270%;
-    padding: 18rem 0 25rem 0;
+    padding: 4rem 5rem 0 5rem;
   }
 
   .order-button {
     margin-bottom: 4rem;
   }
 
-  .food-images {
-    display: block;
+  .caption-and-arrow p {
+    font-size: 2.2rem;
   }
 
-  footer {
+  .food-images p {
+    padding: 0 3rem;
+  }
+}
+
+/************************************/
+/* BELOW 500 px */
+/************************************/
+@media (max-width: 31.25rem) {
+  .above-intro,
+  .below-intro {
     display: block;
+    background-image: url("https://lh3.googleusercontent.com/bZH2x3_w9ui1eB5qUivhvmYfKspX1FizOPwndHRgpO2gW61Piq7ufVXZ6q7zgCS6y0qJQAPyZl3wuEU96AdjcwWJfUO1x79pfIniWXFPVETnr84yk3TMoY94HIAJ--JQRC8jRWChOA=w2400");
+    background-size: auto 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 10rem;
   }
 
-  .contact-info,
-  .social-links {
+  .above-intro,
+  .intro,
+  .below-intro {
+    margin: 2rem;
+  }
+
+  .intro-last-line {
     margin-bottom: 3rem;
+  }
+
+  .order-button {
+    margin-bottom: 2rem;
+  }
+
+  .intro {
+    background-image: none;
+    padding: 0;
   }
 }
 
@@ -136,10 +204,6 @@
     font-size: 4rem;
   }
 
-  .intro {
-    background-image: none;
-  }
-
   .unofficial {
     gap: 0.25rem;
   }
@@ -148,29 +212,27 @@
     font-size: 1.5rem;
   }
 
-  .main-header,
   #story,
   #menu,
   #restaurant-info,
   footer {
-    padding: 3rem 2.5rem;
+    padding: 3rem 4rem;
   }
 
-  #story {
-    display: none;
+  .main-header {
+    padding: 3rem 4rem 0 4rem;
+  }
+
+  .caption-and-arrow {
+    margin-top: 2rem;
   }
 }
 
 /************************************/
-/* BELOW 300 px */
+/* BELOW 330 px */
 /************************************/
-@media (max-width: 18.75rem) {
+@media (max-width: 20.625rem) {
   html {
     font-size: 40%;
-  }
-
-  .intro {
-    background-image: none;
-    padding: 25rem 0;
   }
 }
