@@ -1,35 +1,35 @@
-## Alfredo-s--Version-2
+# Alfredo's Mexican Food--Version 2
 
-# Unofficial website for Alfredo's Mexican Food in Burbank _UPDATED_ to include responsive design.
+Unofficial website for Alfredo's Mexican Food in Burbank _UPDATED_ to include responsive design.
 
-# https://alfredos-mexican-v2.netlify.app/
+https://alfredos-mexican-v2.netlify.app/
 
 ## Selected Screenshots (Desktop):
 
-# Hero:
-
+Hero:
 ![Alfredo's hero section](https://lh3.googleusercontent.com/8wC6i6LXHk61fg3fMSTNQwpHBvPbPVN8DXllUkR7sHBwXdxGiXACtntz6uetTyyHUm0rkfiRoVPFvgzcgBd4_ROvvNpL_iL_0eP_Xh3bTEa5X2jyHeAmzVcYl3cAf5TXhfcZ0acNNw=w2400)
 
-# Story:
+Story:
 
-# Menu:
+Menu:
 
-# Takeout Info:
+Takeout Info:
 
-# Gallery:
+Gallery:
 
-# Footer:
+Footer:
 
-## Selected Screenshots (Mobile):
+Selected Screenshots (Mobile):
 
+Hero:
 ![Alfredo's hero section](https://lh3.googleusercontent.com/8wC6i6LXHk61fg3fMSTNQwpHBvPbPVN8DXllUkR7sHBwXdxGiXACtntz6uetTyyHUm0rkfiRoVPFvgzcgBd4_ROvvNpL_iL_0eP_Xh3bTEa5X2jyHeAmzVcYl3cAf5TXhfcZ0acNNw=w2400)
 
-# Story:
+Story:
 
-# Menu:
+Menu:
 
-# Takeout Info:
+Takeout Info:
 
-# Gallery:
+Gallery:
 
-# Footer:
+Footer:
