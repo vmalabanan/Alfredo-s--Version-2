@@ -56,6 +56,7 @@
   margin-left: 3rem;
   display: flex;
   gap: 1.5rem;
+  max-height: 100%;
 }
 
 .social-button-header {
