@@ -1,6 +1,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 * {
@@ -16,4 +17,5 @@ body {
   font-weight: 500;
   color: #1a1a1a;
   font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
 }
