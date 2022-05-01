@@ -43,8 +43,8 @@
   text-decoration: none;
 }
 
-.home-nav-link:link:first-child,
-.home-nav-link:visited:first-child {
+.nav-link-first:link,
+.nav-link-first:visited {
   color: #ff3e56;
   text-decoration: none;
 }
